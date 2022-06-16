@@ -1,0 +1,187 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins');
+body {
+    font-family:'Poppins', sans-serif;
+    background-color: #FE7D78;
+}
+
+/*:root {
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    padding: 8%;
+    flex-direction: column;
+}
+/*@media screen and (max-width : 992) {
+   
+}*/
+@media only screen and (min-width : 375px) {
+    /*  width:
+    float:*/
+
+    .first {
+        height: 40%;
+    }
+
+    body {
+        background-image: url('bg-intro-mobile.png')
+    }
+
+    .learn {
+        color: white;
+        text-align: center;
+    }
+    .me {
+        height: 60%;
+    }
+
+    .first h1 {
+        font-size: 75px;
+        padding-top: 40px;
+    }
+
+    .first h3 {
+        font-size: 42px;
+        padding: 50px;
+        font-weight: normal;
+    }
+
+    .sec {
+        background-color: #5D54A3;
+        border-radius: 25px;
+        height: 20%;
+    }
+
+        .sec h3 {
+            color: white;
+            padding: 24px;
+            padding-left: 15%;
+            padding-right: 15%;
+            text-align: center;
+            font-size: 42px;
+            font-weight: normal;
+        }
+
+    .thi {
+        background-color: white;
+        border-radius: 20px;
+        height: 80%;
+        margin-top: 30px;
+    }
+
+        .thi input {
+            width: 100%;
+            height: 100%;
+            border-radius: 2px;
+            border: 0.5px solid #a9a8a8;
+            font-size: 30px;
+            padding-left: 3%;
+            font-weight: bold;
+        }
+
+            .thi input[type=text]:focus {
+                border:0.5px solid purple;
+            }
+
+        .thi form {
+            height: 85%;
+        }
+
+        .thi table {
+            height: 100%;
+            width: 90%;
+        }
+
+        .thi h4 {
+            text-align: center;
+            padding: 2%;
+            font-size: 20px;
+            font-weight: normal;
+        }
+}
+
+@media only screen and (min-width : 1440px) {
+    main {
+        display: flex;
+        height: 100vh;
+        padding: 0%;
+        flex-direction: row;
+    }
+    body {
+        background-image: url('bg-intro-desktop.png')
+    }
+    .me {
+        height: 100%;
+        width: 40%;
+        padding-right: 8%;
+        padding-top: 7%;
+    }
+    .first {
+        height: 100%;
+        width: 60%;
+        padding: 20%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+        .first h1 {
+            font-size: 58px;
+            padding-top: 40px;
+        }
+
+        .first h3 {
+            font-size: 19px;
+            font-weight: normal;
+            text-align: left;
+            padding-top: 5%;
+            padding-left:10%;
+            padding-right:0%;
+        }
+    .sec {
+        background-color: #5D54A3;
+        border-radius: 8px;
+        height: 8%;
+    }
+        .sec h3 {
+            color: white;
+            padding: 24px;
+            text-align: center;
+            font-size: 17px;
+            font-weight: normal;
+        }
+        .thi{
+            height:70%;
+        }
+            .thi input {
+                width: 100%;
+                height: 100%;
+                border-radius: 2px;
+                border: 0.5px solid #a9a8a8;
+                font-size: 16px;
+                padding-left: 5%;
+                font-weight: bold;
+            }
+            .thi h4 {
+                font-size: 12px;
+            }
+}
+
+/*@media only screen and (min-width : 1200px) {
+}*/
+/* typical phone screen resolution */
+/*@media only screen and (max-width : 667px) {
+}*/
+/* landscape orientation */
+/*@
+media only screen and (min-width : 375px) and (max-width : 667px) and (orientation : landscape) {
+}*/
+/* portrait orientation */
+/*@media only screen and (min-width : 375px) and (max-width : 667px) and (orientation : portrait) {
+}*/
